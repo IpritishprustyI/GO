@@ -29,7 +29,7 @@ func main() {
 		} else {
 			temp = temp * i
 
-			fmt.Println(dish_value(dish), dish_order(dish), "is ordered with bill amount", temp)
+			fmt.Println(val, dish_order(dish), "is ordered of Rupees", dish_value(dish), " each and total bill amount is", temp)
 			earn = earn + temp
 		}
 	}
